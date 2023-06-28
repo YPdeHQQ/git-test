@@ -1,3 +1,5 @@
+# 网络设置命令
+
 nmcli connection modify 'en33' ipv4.method manual ipv4.addresses '196.185.1.123/26 196.185.1.0' ipv4.dns 192.168.225.225 connection.autoconnect yes
 
 # 设置成功
